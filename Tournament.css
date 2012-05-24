@@ -1,0 +1,223 @@
+/*
+ *   Tournaments styles
+ */
+
+td.game 
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif ;
+	font-size: 7pt ;
+	padding-left: .5em ;
+	padding-right: .25em ;
+	padding-top: 5px ;
+	padding-bottom: 5px ;
+	border-top: 2px black solid ; 
+	border-right: 2px black solid ; 
+	border-bottom: 2px black solid ;
+	white-space: nowrap ;
+	}
+
+td.gameleft
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif ;
+	font-size: 7pt ;
+	padding-left: .5em ;
+	padding-right: .25em ;
+	padding-top: 5px ;
+	padding-bottom: 5px ;
+	border-top: 2px black solid ; 
+	border-left: 2px black solid ; 
+	border-bottom: 2px black solid ;
+	white-space: nowrap ;
+	}
+
+td.gameleftif
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif ;
+	font-size: 7pt ;
+	padding-left: .5em ;
+	padding-right: .25em ;
+	padding-top: 5px ;
+	padding-bottom: 5px ;
+	border-top: 2px black dashed ; 
+	border-left: 2px black solid ; 
+	border-bottom: 2px black solid ;
+	white-space: nowrap ;
+	}
+
+td.gamerightif
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif ;
+	font-size: 7pt ;
+	padding-left: .5em ;
+	padding-right: .25em ;
+	padding-top: 5px ;
+	padding-bottom: 5px ;
+	border-top: 2px black dashed ; 
+	border-right: 2px black solid ; 
+	border-bottom: 2px black solid ;
+	white-space: nowrap ;
+	}
+
+td.gamecenter
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif ;
+	font-size: 7pt ;
+	padding-left: .5em ;
+	padding-right: .25em ;
+	padding-top: 5px ;
+	padding-bottom: 5px ;
+	border: 2px black solid ;
+	white-space: nowrap ;
+	}
+
+td.gamebackhalf 
+	{
+	border-top: 2px black solid ; 
+	border-bottom: 2px black solid ;
+	}
+
+td.ifgameno
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif ;
+	font-size: 7pt ;
+	padding-left: .5em ;
+	padding-right: .25em ;
+	padding-top: 5px ;
+	padding-bottom: 5px ;
+	border-top: 2px black solid ; 
+	white-space: nowrap ;
+	}
+
+td.ifgamemaybe
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif ;
+	font-size: 7pt ;
+	padding-left: .5em ;
+	padding-right: .25em ;
+	padding-top: 5px ;
+	padding-bottom: 5px ;
+	border-top: 2px black solid ; 
+	border-right: 2px black dashed ; 
+	border-bottom: 2px black dashed ;
+	white-space: nowrap ;
+	}
+
+td.ifgameyes
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif ;
+	font-size: 7pt ;
+	padding-left: .5em ;
+	padding-right: .25em ;
+	padding-top: 5px ;
+	padding-bottom: 5px ;
+	border-top: 2px black solid ; 
+	border-right: 2px black solid ; 
+	border-bottom: 2px black solid ;
+	white-space: nowrap ;
+	}
+
+td.winner
+	{
+	/* padding-top: 35px ; */
+	font-family: Verdana, Arial, Helvetica, sans-serif ;
+	font-size: 7pt ;
+	padding-left: 10px ;
+	padding-right: 10px ;
+	border-bottom: 2px black solid ;
+	white-space: nowrap ;
+	vertical-align: bottom ;
+	}
+
+td.overwinner
+	{
+	border-bottom: 2px black solid ;
+	font-family: Verdana, Arial, Helvetica, sans-serif ;
+	font-size: 7pt ;
+	white-space: nowrap ;
+	vertical-align: bottom ;
+	padding-left: 10px ;
+	padding-right: 10px ;
+	}
+
+td.underwinner
+	{
+	border-top: 2px black solid ;
+	padding-left: 10px ;
+	padding-right: 10px ;
+	}
+
+td.ifwinner
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif ;
+	font-size: 7pt ;
+	padding-left: .25em ;
+	padding-right: .25em ;
+	border-bottom: 2px black dashed ;
+	white-space: nowrap ;
+	vertical-align: bottom ;
+	}
+
+td.teamhome
+	{
+	padding-top: 10px ;
+	padding-left: 3px ;
+	padding-right: 3px ;
+	text-align: left ;
+	vertical-align: bottom ;
+	font-family: Verdana, Arial, Helvetica, sans-serif ;
+	font-size: 7pt ;
+	white-space: nowrap ;
+	}
+
+td.teamaway
+	{
+	padding-bottom: 10px ;
+	padding-left: 3px ;
+	padding-right: 3px ;
+	text-align: left ;
+	vertical-align: top ;
+	font-family: Verdana, Arial, Helvetica, sans-serif ;
+	font-size: 7pt ;
+	white-space: nowrap ;
+	}
+	
+td.teamawayline
+	{
+	padding-bottom: 10px ;
+	padding-left: 3px ;
+	padding-right: 3px ;
+	text-align: left ;
+	vertical-align: top ;
+	font-family: Verdana, Arial, Helvetica, sans-serif ;
+	font-size: 7pt ;
+	white-space: nowrap ;
+	border-bottom: 2px black solid ;
+	}
+	
+td.standingunder
+	{
+	text-align: center ;
+	vertical-align: top ;
+	font-family: Verdana, Arial, Helvetica, sans-serif ;
+	font-size: 7pt ;
+	white-space: nowrap ;
+	}
+	
+.GameLocationLink a:link, .GameLocationLink a:visited
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif ;
+	font-size: 7pt ;
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+	}
+	
+.GameLocationLink a:hover
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif ;
+	font-size: 7pt ;
+	color: #CA0002;
+	background-color: transparent;
+	text-decoration: underline;
+	}
+	
